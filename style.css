@@ -1,0 +1,171 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+span{
+    display: inline-block;
+}
+
+
+/* header part */
+
+
+#main-heading-div{
+    text-align: center;
+}
+
+#main-heading-para-div{
+    text-align: center;
+}
+
+#main-heading-storyforkids{
+   font: bold 45px Roboto, sans-serif;
+   font-weight: 700;
+   line-height: normal;
+    margin: 0 0 14px;
+    width: 100%;
+}
+
+
+/* sections dimension */
+
+#sec-1{
+    margin-top: 40px;
+}
+.section-dimension{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width:800px;
+    box-sizing: border-box;
+    background-color: beige;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 1px 4px 0 rgb(60 64 67 / 30%);
+}
+
+
+.section-first-content-box{
+    display: flex;
+}
+
+.date{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding-bottom: 3%;
+}
+
+.img-box{
+ width: 100%;
+}
+
+.img-box img{
+    height: 100%;
+    width: 100%;
+}
+
+
+.share-button-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-foter{
+    /* margin-top: 20px; */
+    display: flex;
+    /* padding: 4%; */
+    padding: 10px;
+    margin-top: 60px;
+
+
+}
+.way-of-contact{
+    width: 80%;
+}
+
+.link-to-read-more{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+/* image content */
+.image-content{
+    display: flex;
+    height: 23vh;
+    justify-content: space-between;
+}
+
+.image-content img{
+    /* margin-top: 3%; */
+    height: auto;
+    width: 100%;
+}
+.story-image{
+    margin-top: 10px;
+    padding: 2%;
+}
+/* fotter  */
+#more-post{
+    margin-top: 45px;
+    margin-bottom: 45px;
+    width: 100vw;
+    text-align: center;
+}
+
+/* other footer css */
+
+.other-section-dimension{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width:800px;
+    box-sizing: border-box;
+    border-bottom: 1px black dashed;
+    padding: 15px;
+    margin-bottom: 15px;
+
+}
+
+
+
+    .other-section-foter{
+        margin-top: 70px;
+    
+
+        display: flex;
+        justify-content: flex-end;
+
+    }
+
+    /* footer  */
+    .blogger{
+        display: flex;
+        justify-content: center;
+        /* margin-bottom: 20px; */
+    }
+
+    .complaint{
+        margin-top: 25px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .story-para{
+        overflow-x: hidden;
+         overflow-y: hidden;
+    }
+
+    /* .story-para-div{
+        overflow-x: hidden;
+        */
+    /* } */

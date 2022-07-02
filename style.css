@@ -160,12 +160,13 @@ span{
         text-align: center;
     }
 
-    .story-para{
-        overflow-x: hidden;
-         overflow-y: hidden;
-    }
+    
 
-    /* .story-para-div{
-        overflow-x: hidden;
-        */
-    /* } */
+     .para{
+        height: 200px;
+        width: 300px;
+  white-space: wrap; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+  /* border: 1px solid #000000; */
+     } 
